@@ -1,3 +1,7 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-spair-71k)](https://paperswithcode.com/sota/semantic-correspondence-on-spair-71k?p=semantic-correspondence-with-transformers)<br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-pf-pascal)](https://paperswithcode.com/sota/semantic-correspondence-on-pf-pascal?p=semantic-correspondence-with-transformers)<br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-pf-willow)](https://paperswithcode.com/sota/semantic-correspondence-on-pf-willow?p=semantic-correspondence-with-transformers)
+
 ## CATs:  Semantic Correspondence  with Transformers
 For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106.02520)].
 
