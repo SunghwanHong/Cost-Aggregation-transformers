@@ -1,4 +1,4 @@
-## CATs: <br/> Semantic Correspondence  with Transformers
+## CATs:  Semantic Correspondence  with Transformers
 For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106.02520)].
 
 # Network
