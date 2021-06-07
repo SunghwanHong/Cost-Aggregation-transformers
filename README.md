@@ -4,7 +4,9 @@ For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106
 # Network
 
 Our model CATs is illustrated below:
+
 ![alt text](/images/ARCH.png)
+
 
 code will be made available soon...
 
