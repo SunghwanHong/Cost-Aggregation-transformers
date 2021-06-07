@@ -1,5 +1,13 @@
-# CATs
+## CATs: <br/> Semantic Correspondence  with Transformers
+For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106.02520)].
+
+# Network
+
+Our model CATs is illustrated below:
+![alt text](/images/ARCH.png)
+
 code will be made available soon...
+
 ### BibTeX
 If you find this research useful, please consider citing:
 ````BibTeX
