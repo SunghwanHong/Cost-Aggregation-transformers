@@ -5,6 +5,9 @@
 ## CATs:  Semantic Correspondence  with Transformers
 For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106.02520)].
 
+Training with different backbones and evaluations of them are to be updated soon.. 
+
+
 # Network
 
 Our model CATs is illustrated below:
@@ -25,7 +28,7 @@ pip install git+https://github.com/albumentations-team/albumentations
 pip install tensorboardX termcolor timm tqdm requests pandas
 ```
 
-# Reproduction
+# Evaluation
 - Download pre-trained weights on [Link](https://drive.google.com/drive/folders/1ZcYW2_URo3EAGuPQ3f451bwIOKGotUA0?usp=sharing)
 - All datasets are automatically downloaded into directory specified by argument `datapath`
 
