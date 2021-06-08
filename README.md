@@ -11,8 +11,39 @@ Our model CATs is illustrated below:
 
 ![alt text](/images/ARCH.png)
 
+# Environment Settings
+```
+git clone https://github.com/SunghwanHong/CATs
+cd CATs
 
-code will be made available soon...
+conda create -n CATs python=3.6
+conda activate CATs
+
+pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install -U scikit-image
+pip install git+https://github.com/albumentations-team/albumentations
+pip install tensorboardX termcolor timm tqdm requests pandas
+```
+
+# Reproduction
+- Download pre-trained weights on [Link](https://drive.google.com/drive/folders/1ZcYW2_URo3EAGuPQ3f451bwIOKGotUA0?usp=sharing)
+- All datasets are automatically downloaded into directory specified by argument `datapath`
+
+Result on SPair-71k: (PCK 49.9%)
+
+      python test.py --pretrained "/path_to_pretrained_model/spair" --benchmark spair
+
+Result on SPair-71k, feature backbone frozen: (PCK 42.4%)
+
+      python test.py --pretrained "/path_to_pretrained_model/spair_frozen" --benchmark spair
+
+Results on PF-PASCAL: (PCK 75.4%, 92.6%, 96.4%)
+
+      python test.py --pretrained "/path_to_pretrained_model/pfpascal" --benchmark pfpascal
+
+Results on PF-PACAL, feature backbone frozen: (PCK 67.5%, 89.1%, 94.9%)
+
+      python test.py --pretrained "/path_to_pretrained_model/pfpascal_frozen" --benchmark pfpascal
 
 ### BibTeX
 If you find this research useful, please consider citing:
