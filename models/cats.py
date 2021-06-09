@@ -85,6 +85,9 @@ class MultiscaleBlock(nn.Module):
         self.mlp2 = Mlp(in_features=dim, hidden_features=mlp_hidden_dim, act_layer=act_layer, drop=drop)
 
     def forward(self, x):
+        '''
+        Multi-level aggregation
+        '''
         B, N, H, W = x.shape
         if N == 1:
             x = x.flatten(0, 1)
@@ -94,7 +97,7 @@ class MultiscaleBlock(nn.Module):
         x = x.flatten(0, 1)
         x = x + self.drop_path(self.attn(self.norm1(x)))
         x = x + self.drop_path(self.mlp2(self.norm4(x)))
-        x = x.view(B, N, H, W).transpose(1, 2).flatten(0, 1)
+        x = x.view(B, N, H, W).transpose(1, 2).flatten(0, 1) 
         x = x + self.drop_path(self.attn_multiscale(self.norm3(x)))
         x = x.view(B, H, N, W).transpose(1, 2).flatten(0, 1)
         x = x + self.drop_path(self.mlp(self.norm2(x)))
@@ -144,10 +147,10 @@ class TransformerAggregator(nn.Module):
         pos_embed = pos_embed.flatten(2, 3)
 
         x = torch.cat((x.transpose(-1, -2), target), dim=3) + pos_embed
-        x = self.proj(self.blocks(x)).transpose(-1, -2) + corr
+        x = self.proj(self.blocks(x)).transpose(-1, -2) + corr  # swapping the axis for swapping self-attention.
 
         x = torch.cat((x, source), dim=3) + pos_embed
-        x = self.proj(self.blocks(x)) + corr
+        x = self.proj(self.blocks(x)) + corr 
 
         return x.mean(1)
 
