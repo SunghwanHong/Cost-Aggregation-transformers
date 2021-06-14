@@ -51,12 +51,10 @@ Results on PF-PACAL, feature backbone frozen: (PCK 67.5%, 89.1%, 94.9%)
 ### BibTeX
 If you find this research useful, please consider citing:
 ````BibTeX
-@misc{cho2021semantic,
-      title={Semantic Correspondence with Transformers}, 
-      author={Seokju Cho and Sunghwan Hong and Sangryul Jeon and Yunsung Lee and Kwanghoon Sohn and Seungryong Kim},
-      year={2021},
-      eprint={2106.02520},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{cho2021semantic,
+  title={Semantic Correspondence with Transformers},
+  author={Cho, Seokju and Hong, Sunghwan and Jeon, Sangryul and Lee, Yunsung and Sohn, Kwanghoon and Kim, Seungryong},
+  journal={arXiv preprint arXiv:2106.02520},
+  year={2021}
 }
 ````
