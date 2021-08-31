@@ -49,7 +49,7 @@ Results on PF-PACAL, feature backbone frozen: (PCK 67.5%, 89.1%, 94.9%)
       python test.py --pretrained "/path_to_pretrained_model/pfpascal_frozen" --benchmark pfpascal
 # Acknowledgement <a name="Acknowledgement"></a>
 
-We borrow code from public projects (huge thanks to all the projects) such as [GLU-Net](https://github.com/PruneTruong/GLU-Net), [DGC-Net](https://github.com/AaltoVision/DGC-Net), [PWC-Net](https://github.com/NVlabs/PWC-Net), [NC-Net](https://github.com/ignacio-rocco/ncnet), [Flow-Net-Pytorch](https://github.com/ClementPinard/FlowNetPytorch), [DHPF](https://github.com/juhongm999/dhpf)...
+We borrow code from public projects (huge thanks to all the projects). We mainly borrow code from  [DHPF](https://github.com/juhongm999/dhpf) and [GLU-Net](https://github.com/PruneTruong/GLU-Net). 
 ### BibTeX
 If you find this research useful, please consider citing:
 ````BibTeX
