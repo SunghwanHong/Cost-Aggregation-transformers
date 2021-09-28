@@ -2,7 +2,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-pf-pascal)](https://paperswithcode.com/sota/semantic-correspondence-on-pf-pascal?p=semantic-correspondence-with-transformers)<br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-pf-willow)](https://paperswithcode.com/sota/semantic-correspondence-on-pf-willow?p=semantic-correspondence-with-transformers)
 
-## CATs:  Semantic Correspondence  with Transformers
+## CATs:  Semantic Correspondence  with Transformers (To be appeared in Neurips'21)
 For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106.02520)].
 
 Training with different backbones and evaluations of them are to be updated soon.. 
