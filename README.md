@@ -2,7 +2,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-pf-pascal)](https://paperswithcode.com/sota/semantic-correspondence-on-pf-pascal?p=semantic-correspondence-with-transformers)<br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-pf-willow)](https://paperswithcode.com/sota/semantic-correspondence-on-pf-willow?p=semantic-correspondence-with-transformers)
 
-## CATs: Cost Aggregation Transformers for Visual Correspondence  (To be appeared in Neurips'21)
+## CATs: Cost Aggregation Transformers for Visual Correspondence  (To be appeared in NeurIPS'21)
 For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106.02520)].
 
 Training with different backbones and evaluations of them are to be updated soon.. 
@@ -53,10 +53,10 @@ We borrow code from public projects (huge thanks to all the projects). We mainly
 ### BibTeX
 If you find this research useful, please consider citing:
 ````BibTeX
-@article{cho2021semantic,
-  title={Semantic Correspondence with Transformers},
+@inproceedings{cho2021cats,
+  title={CATs: Cost Aggregation Transformers for Visual Correspondence},
   author={Cho, Seokju and Hong, Sunghwan and Jeon, Sangryul and Lee, Yunsung and Sohn, Kwanghoon and Kim, Seungryong},
-  journal={arXiv preprint arXiv:2106.02520},
+  booktitle={Thirty-Fifth Conference on Neural Information Processing Systems},
   year={2021}
 }
 ````
