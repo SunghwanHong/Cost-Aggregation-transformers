@@ -7,6 +7,7 @@ For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106
 
 Training with different backbones and evaluations of them are to be updated soon.. 
 
+Check out our new paper! [[arXiv](https://arxiv.org/abs/2112.11685)]
 
 # Network
 
