@@ -13,7 +13,7 @@ Check out our new paper! [[arXiv](https://arxiv.org/abs/2112.11685)]
 
 Our model CATs is illustrated below:
 
-![alt text](/images/ARCH.png)
+![alt text](/images/ARCH.jpg)
 
 # Environment Settings
 ```
