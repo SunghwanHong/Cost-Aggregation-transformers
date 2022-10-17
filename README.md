@@ -3,7 +3,9 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semantic-correspondence-with-transformers/semantic-correspondence-on-pf-willow)](https://paperswithcode.com/sota/semantic-correspondence-on-pf-willow?p=semantic-correspondence-with-transformers)
 
 ## CATs: Cost Aggregation Transformers for Visual Correspondence  NeurIPS'21
-For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106.02520)]. Check out our journal extension! It will be appeared at TPAMI, but currenclty available at: [[arXiv](https://arxiv.org/pdf/2202.06817v1.pdf)].
+For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106.02520)].
+
+Check out our journal extension! It will be appeared at TPAMI, but currenclty available at: [[arXiv](https://arxiv.org/pdf/2202.06817v1.pdf)].
 
 
 # Network
