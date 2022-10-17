@@ -6,6 +6,7 @@
 For more information, check out the paper on [[arXiv](https://arxiv.org/abs/2106.02520)].
 
 Check out our journal extension! It will be appeared at TPAMI, but currenclty available at: [[arXiv](https://arxiv.org/pdf/2202.06817v1.pdf)].
+Also, the code implementation is available at : https://github.com/KU-CVLAB/CATs-PlusPlus
 
 
 # Network
