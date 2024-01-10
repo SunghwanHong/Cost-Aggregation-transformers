@@ -30,7 +30,7 @@ pip install tensorboardX termcolor timm tqdm requests pandas
 ```
 
 # Evaluation
-- Download pre-trained weights on [Link](https://koreaoffice-my.sharepoint.com/:f:/g/personal/seokju_cho_korea_ac_kr/ElKcgzTHCv5FipewztXEkI8BnhUiWi2mqZX0joYdI1ql2Q)
+- Download pre-trained weights on [Link](https://drive.google.com/drive/folders/1e5GhHbOpsWpLALZHw7Th0IXFqjc4s5pu?usp=share_link)
 - All datasets are automatically downloaded into directory specified by argument `datapath`
 
 Result on SPair-71k: (PCK 49.9%)
